@@ -25,7 +25,7 @@ public class Book implements Comparable<Book> {
 
     @Override
     public String toString() {
-        return "Book [titulo=" + titulo + ", autor=" + autor + ", anio=" + anio + "]";
+        return "\ntitulo:" + titulo + ", autor:" + autor + ", anio:" + anio + ".";
     }
 
     
